@@ -1,4 +1,24 @@
 
+if (!requireNamespace("tidyverse", quietly = TRUE)) {
+  install.packages("tidyverse")
+}
+
+if (!requireNamespace("vars", quietly = TRUE)) {
+  install.packages("vars")
+}
+
+if (!requireNamespace("svglite", quietly = TRUE)) {
+  install.packages("svglite")
+}
+
+if (!requireNamespace("tsibble", quietly = TRUE)) {
+  install.packages("tsibble")
+}
+
+if (!requireNamespace("readxl", quietly = TRUE)) {
+  install.packages("readxl")
+}
+
 library(tidyverse)
 library(vars)
 # library(extrafont)
